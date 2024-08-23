@@ -1,0 +1,5 @@
+# ninja log v6
+4	269	7461392324485144	CMakeFiles/python_from_cpp.dir/main.cpp.obj	c68ff06f85260e48
+4	1707	7461392740922761	build.ninja	83837ede73920408
+20	289	7461392741752729	CMakeFiles/python_from_cpp.dir/main.cpp.obj	220d74fcb15d3ec8
+290	367	7461392744453031	python_from_cpp.exe	4c5e8c6ac27db293
