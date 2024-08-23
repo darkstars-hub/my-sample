@@ -1,0 +1,4 @@
+C:/home/git/my-sample/sqlite_on_cpp/cmake-build-debug/CMakeFiles/sqlite3.dir
+C:/home/git/my-sample/sqlite_on_cpp/cmake-build-debug/CMakeFiles/SQLiteExample.dir
+C:/home/git/my-sample/sqlite_on_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/home/git/my-sample/sqlite_on_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+# ninja log v6
+8	475	7461403870806225	CMakeFiles/SQLiteExample.dir/main.cpp.obj	fa556d0100229f6c
+4	5903	7461403870756226	CMakeFiles/sqlite3.dir/sqlite-amalgamation-3460100/sqlite3.c.obj	5bd1529b6d2b1788
+5905	6016	7461403929767814	libsqlite3.a	d8cd8a891f9b416e
+6016	6152	7461403930877766	SQLiteExample.exe	ad5f06d078911a83

@@ -119,7 +119,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/python_from_cpp
 CMAKE_LINKER:FILEPATH=C:/Users/maila/AppData/Local/Programs/CLion 2/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/maila/AppData/Local/Programs/CLION2~1/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/maila/AppData/Local/Programs/CLion 2/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -427,6 +427,8 @@ _Python3_INCLUDE_DIR:INTERNAL=C:/Users/maila/AppData/Local/Programs/Python/Pytho
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;1;64;;cp312-win_amd64;;C:\Users\maila\AppData\Local\Programs\Python\Python312\Lib;C:\Users\maila\AppData\Local\Programs\Python\Python312\Lib;C:\Users\maila\AppData\Local\Programs\Python\Python312\Lib\site-packages;C:\Users\maila\AppData\Local\Programs\Python\Python312\Lib\site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=95d65136707cb40dd15ea190d387f65e
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
 _Python3_LIBRARY_DEBUG:INTERNAL=_Python3_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
