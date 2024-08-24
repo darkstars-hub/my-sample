@@ -1,0 +1,81 @@
+<mxfile host="draw.io" modified="2024-08-24T17:47:07.655Z" agent="Mozilla/5.0" etag="0_KR5Ex-bu_w8Uq4aNTW" version="22.0.3" type="device">
+  <diagram id="UserClassDiagram" name="Page-1">
+    <mxGraphModel dx="827" dy="1169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- User Class -->
+        <mxCell id="User" value="User" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="60" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="User-Name" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="User" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="User-PhoneNumber" value="Phone Number" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="User" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="User-EmailAddress" value="Email Address" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="User" vertex="1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <!-- Student Class -->
+        <mxCell id="Student" value="Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="60" width="160" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Student-StudentNumber" value="Student Number" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Student" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Student-AverageMark" value="Average Mark" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Student" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Student-IsEligibleToEnroll" value="Is Eligible To Enroll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Student" vertex="1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Student-GetSeminarsTaken" value="Get Seminars Taken" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Student" vertex="1">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <!-- Professor Class -->
+        <mxCell id="Professor" value="Professor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="60" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Professor-Salary" value="Salary" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Professor" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <!-- Address Class -->
+        <mxCell id="Address" value="Address" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="240" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Address-Street" value="Street" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Address" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Address-City" value="City" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Address" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Address-State" value="State" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Address" vertex="1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Address-PostalCode" value="Postal Code" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Address" vertex="1">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Address-Country" value="Country" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Address" vertex="1">
+          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Address-Validate" value="Validate" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Address" vertex="1">
+          <mxGeometry y="156" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Address-OutputAsLabel" value="Output As Label" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;" parent="Address" vertex="1">
+          <mxGeometry y="182" width="160" height="26" as="geometry" />
+        </mxCell>
+        <!-- Inheritance and Association -->
+        <mxCell id="UserToStudent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;loopDirection=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="User" target="Student">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UserToProfessor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;loopDirection=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="User" target="Professor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UserToAddress" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;loopDirection=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="User" target="Address">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
